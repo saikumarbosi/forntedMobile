@@ -67,3 +67,7 @@ body{
   align-items: center;
   justify-content: center;
 }
+.nav-container{
+  background-color: black;
+  padding: 1px;
+}
