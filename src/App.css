@@ -1,38 +1,69 @@
-.App {
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container{
+  background-color: lightblue;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 20%;
+  border-radius: 10px;
+}
+.login-container h1{
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.login-container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.username{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.password{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.jokes-list{
+  list-style: none;
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+.btn{
   text-align: center;
+  background-color: blue;
+  border: 0px solid;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bt{
+  margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jokes-conatiner{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
