@@ -31,7 +31,7 @@ const HomeJokes = () => {
                 )
             })}
             <div className='jokes-conatiner'>
-                <Link to = "/login">
+                <Link to = "/">
                 <button className='btn'>Logout</button>
                 </Link>
             </div>
