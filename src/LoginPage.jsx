@@ -27,7 +27,10 @@ const LoginPage = () => {
             // console.log(response)
             const data = await response.json()
             console.log(data)
-            if (response.ok === true) {
+            if(username === '' || password === ''){
+                alert("Please Enter Details")
+            }
+            else if (response.ok === true) {
                 usenavigate('/joker')
             }
         }
