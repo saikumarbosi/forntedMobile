@@ -22,6 +22,9 @@ const HomeJokes = () => {
 
     return (
         <div>
+            <nav className='nav-container'>
+                <p style={{color: 'white'}}>JOKERS</p>
+            </nav>
             {data.map((item) => {
                 return(
                     <ul className='jokes-list'>
